@@ -1,14 +1,8 @@
-out
-*.zip
-*.jks
-*.apk
+node_modules/
+.env
+.env.local
+dist/
+build/
 *.log
-/config.prop
-/notes.md
-
-# Built binaries
-native/out
-
-# Android Studio
-*.iml
-.idea
+.DS_Store
+coverage/
